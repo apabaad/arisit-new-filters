@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "CHIEF",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "Visit Website",
+            "text_align": "vertical-center horizontal-right",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "<span class=\"arisit-page-subheading\">About Chief <\/span>\nChief is a division of Legrand AV Technologies. With over 35 years of proven product and service excellence, hundreds of product awards and patented designs, Chief is globally recognised as an AV industry leader. Chief designs state-of-the-art mount and rack solutions that complement the technology its supports. Chief is committed to delivering high-quality products that are easy to install and maintain. <br><br>\n\n<span class=\"arisit-page-subheading\">Video Wall & Menu Board Solutions<\/span>\n\nDigital signage mounts from Chief maximise the impact of the content. Chief strives to provide a digital signage solution that is strong, functional, aesthetically pleasing and easy-to-install. Whether it be sports arenas, retail, airports, health or education institutions around the world, architects and specifiers choose digital signage mounts from Chief.<\/br><br>\n\n<span class=\"arisit-page-subheading\">Corporate AV Solutions<\/span>\n\n<li>Boardrooms & Conference Rooms<\/li>\n<li>Training Facilities<\/li>\n<li>Auditoriums<\/li>\n\n<br>\n <span>For more details regarding Chief AV Solutions<\/span>\n  \nPlease contact Timothy Gaedtke at <strong><a href=\"mailto:tim.gaedtke@arisit.com\" target=\"_blank\"> tim.gaedtke@arisit.com<\/a>\n<\/strong>",
+            "shop-btn-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_width": 580,
+        "subtitle": "chief",
+        "title": "CHIEF",
+        "text": "<p>--- DESCRIPTION ---<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "IMPRESSIVE",
+        "title": "chief",
+        "text": "<p>--- DESCRIPTION ---<\/p>",
+        "button_label": "ALL CABLES",
+        "button_link": "",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "subtitle": "chief",
+        "title": "product",
+        "text": "<p>--- DESCRIPTION ---<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531260ffce2a62",
+    "1653531272c6c35cdc",
+    "1653531300bf45a031"
+  ]
+}

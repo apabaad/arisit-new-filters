@@ -1,0 +1,230 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "de358f02-61a8-4e05-b6a9-01b087a5c4d4": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "de358f02-61a8-4e05-b6a9-01b087a5c4d4",
+        "separator",
+        "price",
+        "buy_buttons"
+      ],
+      "settings": {
+        "sku_enable": true,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "165992290974d00168": {
+      "type": "user-manual",
+      "blocks": {
+        "9180310e-7598-41d1-a43d-66cfe4de5f7f": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.spec_sheet.value }}",
+            "view-btn": "Specification Sheet"
+          }
+        },
+        "024e3c4c-3222-4391-87d0-33bfec1f03af": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.user_manual.value }}",
+            "view-btn": "User Manual"
+          }
+        },
+        "8e9e3c7e-ce69-41d1-bcc6-a366b96242c7": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.cad_drawing.value }}",
+            "view-btn": "CAD Drawing"
+          }
+        },
+        "9b3499b5-3a4e-4301-a57b-72b1220fbbd7": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.warranty_sheet.value }}",
+            "view-btn": "Warranty Sheet"
+          }
+        },
+        "a71905c2-e0e4-4f3f-a17c-144fd12d8b32": {
+          "type": "first-section",
+          "disabled": true,
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.cartoon_layout.value }}",
+            "view-btn": "Cartoon Layout"
+          }
+        }
+      },
+      "block_order": [
+        "9180310e-7598-41d1-a43d-66cfe4de5f7f",
+        "024e3c4c-3222-4391-87d0-33bfec1f03af",
+        "8e9e3c7e-ce69-41d1-bcc6-a366b96242c7",
+        "9b3499b5-3a4e-4301-a57b-72b1220fbbd7",
+        "a71905c2-e0e4-4f3f-a17c-144fd12d8b32"
+      ],
+      "settings": {
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "text-and-image2": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "Don't take our word for it",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165992290974d00168",
+    "sub",
+    "background-image-text",
+    "text-and-image",
+    "text-and-image2",
+    "testimonials",
+    "product-recommendations",
+    "collection-return"
+  ]
+}

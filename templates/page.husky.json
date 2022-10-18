@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "HUSKY",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "https:\/\/huskybrand.com.au\/",
+            "link_text": "Visit Website",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "Husky is a refrigeration specialist with over 50 years of experience within the industry of manufacturing quality refrigeration products. Husky offers a wide range of retro, back bar fridges, alfresco bar fridges and Vino Pro wine fridges for the domestic market and a commercial range of fridges and freezers ideal for any shop, café, restaurant, bar or other retail environment.",
+            "shop-btn-link": "https:\/\/huskybrand.com.au\/"
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HUS-WC72S-BK-ZY-open-web-image.jpg",
+        "image_width": 580,
+        "subtitle": "husky",
+        "title": "Wine Fridge",
+        "text": "<p> We offer different range of husky bar fridge, outdoor fridge, wine fridge<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/huskybrand.com.au\/product-category\/vino-pro-wine-fridges\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "ALL CABLES",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Husky-Custom-Branding-Image.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HUS-RETRO-110BLK-open-stocked-2-1.jpg",
+        "image_width": 580,
+        "subtitle": "husky",
+        "title": "Domestic Refrigeration",
+        "text": "<p> We offer different range of husky bar fridge, outdoor fridge, wine fridge<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/huskybrand.com.au\/product-category\/domestic-refrigeration\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531300bf45a031",
+    "1653531272c6c35cdc",
+    "1653531260ffce2a62"
+  ]
+}

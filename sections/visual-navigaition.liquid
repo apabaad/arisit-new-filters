@@ -1,0 +1,168 @@
+<div class="visual-nav-title" align="center">{{section.settings.nav-row-title}}</div>
+<div class ="visual-nav-container">  
+    <div class="visual-items-container">
+    {% for block in section.blocks%}
+      <div class ="visual-item-link">
+   <a href="{{ block.settings.nav-item-link }}">
+    <div class ="visual-nav-item">
+      
+      <img class="nav-item-img" src="{{ block.settings.nav-item-image | img_url: 'master' }}">
+     <div class="nav-title"> {{ block.settings.nav-title }}</div>
+      
+    </div>
+  </a>
+  </div>
+  {% endfor %}
+  </div>
+  </div>
+  
+  {% schema %} 
+              {
+                "name": "Visual Nav",
+                "settings":[
+                    {
+                    "type": "text",
+                    "id":"nav-row-title",
+                    "label":"Row Title"
+                }
+                ],
+                "blocks": [
+                              {
+                                "type": "image",
+                                "name": "Visual nav item",
+                                "settings": [
+                                              {
+                                              "id": "nav-title",
+                                              "type": "text",
+                                              "label": "Item title"
+                                              },
+                                              {
+                                                "id": "nav-item-image",
+                                                "type": "image_picker",
+                                                "label": "Item image"
+                                                },
+                                              {
+                                                "id": "nav-item-link",
+                                                "type": "url",
+                                                "label": "Item link"
+                                                }
+                                            ]
+                               }
+                            ],
+                 "presets": [
+                                  {
+                                  "name": "Visual Navigation",
+                                  "category": "Advanced Layout"	
+                                  }
+                             ]
+              }
+  {% endschema %}
+    
+    
+    
+    
+    
+      {% style %}
+
+      .visual-nav-title{
+        font-weight:bold;
+        font-size:1.2rem;
+      }
+  
+      .visual-nav-container{
+        /* background: #f2f2f2 ; */
+        padding:15px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+  
+      .visual-items-container{
+        /* width:50%; */
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-wrap:wrap;
+       
+      }
+  
+      .visual-nav-item{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+      }
+  
+      .nav-title{
+        font-size:16px;
+        padding-top:15px;
+        color:#20447E;
+      }
+  
+      .nav-item-img{
+        width:120px;
+      }
+      
+      .visual-item-link{
+     border: 5px solid transparent;
+     padding:0 15px;
+     transition: all .8s ease;
+     padding: 0 3rem;
+  }
+    
+  .visual-item-link:hover{
+        
+     /* border-bottom :3px solid #20447E;      */
+    }
+  
+    @media screen and (max-width: 1009px) {
+      .visual-item-link{
+     padding:0 0;
+    }
+  }
+
+  @media screen and (max-width: 589px) {
+
+    .visual-nav-title{}
+
+    .visual-nav-container{
+      justify-content: flex-start;
+    }
+
+    .visual-items-container{
+      flex-direction:column;
+      align-items: flex-start;
+      width:100%;
+      padding: 0 20px 0;
+    }
+
+    .nav-item-img{
+      margin-left:1rem;
+    }
+    .nav-title{
+      margin-left:1.5rem;
+      color:black;
+      text-transform: uppercase;
+      align:center;
+      padding-top:0;
+    }
+
+    .nav-item-img{
+      width:45px;
+    }
+
+    .visual-item-link{
+      width:100%;
+      box-shadow: 0 5px 15px #0000001a;
+      margin:5px 0;
+    }
+      .visual-nav-item{
+     width:100%;
+        flex-direction:row;   
+    }
+
+    .arisit-logo-div{
+      display:hidden;
+    }
+  }
+      {% endstyle %}

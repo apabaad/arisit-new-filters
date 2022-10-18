@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/4d_adcanced_tilt_1728x_a786646e-ec3a-411b-a8d9-219a431dc187.webp",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "<h2 class=\"collection-title\">SANUS<\/h2>\nSanus, the #1 best-selling TV mount brand in the United States designs and builds fine AV mounts, furniture, stands, and accessories. Every SANUS product is engineered to enhance AV systems and the surrounding decor. Today SANUS offers more than 300 home theatre units, TV and audio stands, mounts, speaker supports, AV equipment racks, and accessories. SANUS products are available at thousands of retail locations worldwide",
+            "shop-btn-link": "https:\/\/www.sanus.com\/en_AU\/"
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sanus-hero_750x_4f11e076-0cd7-4893-b14a-ed624b184ec2.webp",
+        "image_width": 580,
+        "subtitle": "SANUS",
+        "title": "AV Furnishings",
+        "text": "<p>SANUS offers an extensive range of TV wall mounts, TV stands and speaker brackets that enable users to place their AV equipment wherever they want it.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/www.sanus.com\/en_AU\/products\/tv-mounts\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "Buy Now",
+        "button_link": "",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vlf728_b2-sanus-advance-full-motion-tv-mount_750x_5b8aa8ba-be19-403d-baff-25b1ef20460b.webp",
+        "image_width": 580,
+        "subtitle": "Full-Motion",
+        "title": "Premium TV Mount",
+        "text": "<p>Enjoy an all-new perspective when watching your favourite movies and TV shows with the Sanus 42-inch to 90-inch Advance Full-Motion Premium TV Mount. It offers up to 15 degrees of tilt and up to 57 degrees of left and right swivel, so you can position your TV in an angle that suits you best.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/www.sanus.com\/en_AU\/products\/tv-mounts\/vlf728\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531260ffce2a62",
+    "1653531272c6c35cdc",
+    "1653531300bf45a031"
+  ]
+}

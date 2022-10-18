@@ -1,0 +1,61 @@
+
+        <div class="feature-row__item arisit-feature-row__item  feature-row__text  arisit-custom-padding text-left aos-init aos-animate arisit-hidden" data-aos="">
+            <div class="arisit-logo-div-mobile">
+                <img class="arisit-collection-logo" src= "{{ section.settings.logo | img_url }}">
+            </div>
+        </div>
+        
+
+
+
+  {% style %}
+
+
+
+.arisit-collection-logo{
+  width: 100%;
+}
+
+.arisit-feature-row__item{
+    margin:0 auto ;
+}
+
+.arisit-logo-div-mobile{
+    width:40%;
+    margin-bottom:-20px;
+}
+
+.arisit-hidden{
+    display:none;
+}
+
+
+
+
+
+@media screen and (max-width: 589px) {
+    .arisit-hidden{
+        display:block;
+    }
+}
+
+  {% endstyle %}
+
+{% schema %}
+
+{
+    "settings": [
+
+    {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      }],
+
+"presets": [
+    {
+      "name": "Mobile Logo"
+    }
+  ]
+}
+{% endschema %}

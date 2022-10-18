@@ -1,0 +1,855 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_header": "#ffffff",
+    "color_announcement": "#20447e",
+    "color_footer": "#111111",
+    "color_footer_text": "#ffffff",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 62,
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#111111",
+    "type_header_font_family": "montserrat_n4",
+    "type_header_spacing": "0",
+    "type_header_base_size": 35,
+    "type_header_line_height": 1.2,
+    "type_header_accent_transform": true,
+    "type_base_font_family": "futura_n4",
+    "type_base_spacing": "25",
+    "type_base_size": 17,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "type_navigation_size": 18,
+    "icon_weight": "3px",
+    "icon_linecaps": "miter",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-slow-fade",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": true,
+    "animate_images_style": "zoom-fade",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "product_hover_image": false,
+    "enable_swatches": false,
+    "cart_type": "drawer",
+    "cart_additional_buttons": true,
+    "cart_notes_enable": false,
+    "favicon": "shopify:\/\/shop_images\/Arisit_Favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_bg": "#000000",
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "5ae0af72-bc58-49fb-8d88-48b3dc001749": {
+            "type": "megamenu",
+            "disabled": true,
+            "settings": {
+              "menu_item": "Our Brands",
+              "promo_image_1": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
+              "promo_heading_1": "Arisit Headquater",
+              "promo_text_1": "",
+              "promo_url_1": "",
+              "promo_heading_2": "",
+              "promo_text_2": "",
+              "promo_url_2": ""
+            }
+          }
+        },
+        "block_order": [
+          "5ae0af72-bc58-49fb-8d88-48b3dc001749"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Arisit_Logo.png",
+          "logo-inverted": "shopify:\/\/shop_images\/arisit-logo-white.png",
+          "desktop_logo_width": 200,
+          "mobile_logo_width": 140,
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "left",
+          "header_sticky": false,
+          "sticky_index": false,
+          "sticky_collection": false,
+          "show_announcement": false,
+          "announcement_text": "FREE METRO DELIVERIES ON ORDER OVER $99",
+          "announcement_link": "",
+          "announcement_closable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "main-menu",
+              "container_width": 20
+            }
+          },
+          "711fa66c-6cd0-4e09-9818-f1fa55ac9c94": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
+          "1494292487693": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": false,
+              "title": "Sign up and save",
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "container_width": 33
+            }
+          },
+          "1c6fe312-34a0-46ec-b1d1-0982465bf7ac": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
+          "f13f8088-33f0-4093-9e87-2fbf78c63489": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
+          "6cdb8d05-1109-4f50-90f0-1b7d87175b9b": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          }
+        },
+        "block_order": [
+          "1494292485313",
+          "711fa66c-6cd0-4e09-9818-f1fa55ac9c94",
+          "1494292487693",
+          "1c6fe312-34a0-46ec-b1d1-0982465bf7ac",
+          "f13f8088-33f0-4093-9e87-2fbf78c63489",
+          "6cdb8d05-1109-4f50-90f0-1b7d87175b9b"
+        ],
+        "settings": {
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": false,
+          "colorize_payment_icons": true,
+          "show_copyright": true,
+          "copyright_text": ""
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide",
+          "align_text": "left"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "d241bb79-4f1a-4dd9-b49d-0f22dc5d6258": {
+            "type": "image",
+            "settings": {
+              "title": "Arisit Commercial",
+              "title_size": 50,
+              "subheading1": "",
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/commercial_banner.jpg",
+              "overlay_opacity": 0,
+              "focal_point": "top center"
+            }
+          }
+        },
+        "block_order": [
+          "d241bb79-4f1a-4dd9-b49d-0f22dc5d6258"
+        ],
+        "settings": {
+          "section_height": "550px",
+          "mobile_height": "auto",
+          "parallax": false,
+          "style": "arrows",
+          "autoplay": true,
+          "autoplay_speed": 7
+        }
+      },
+      "arisit-commercial-tile": {
+        "type": "arisit-commercial-tile",
+        "blocks": {
+          "9fe15c73-a3eb-452f-aec6-63cdd53302c2": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/commercial-website-image.jpg",
+              "tile-title": "whirlpool",
+              "tile-text": "Discover the wide range of Whirlpool products. From Kitchen to Laundry Appliances, Whirlpool’s innovative technology gives you time to enjoy the moments that matter."
+            }
+          },
+          "0547228a-7cb5-4923-969b-a4c03c2156cb": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Ariston_9c35dbf6-6266-4458-b114-368294e836f8.png",
+              "tile-title": "ariston",
+              "tile-text": "Ariston’s new range of appliances will cover all aspects of a project from the kitchen through to the laundry. We offer 60cm, 70cm and 90cm appliances. Quality products that work safely and offer the highest performance to meet your clients’ needs."
+            }
+          },
+          "9d9f6e8b-3152-4261-8726-ed0240dcca45": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Steel.png",
+              "tile-title": "steel",
+              "tile-text": "Steel is an Italian company with a long family heritage. Situated in Carpi near Bologna it is owned and run by the Po family, who are the third generation to be involved in the production of range cooking equipment."
+            }
+          },
+          "bc7a2744-5bc2-4f1e-a88a-fa9d0a4bad2e": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Sirius.png",
+              "tile-title": "sirius",
+              "tile-text": "Sirius offers specialty rangehoods with ón board motor’or ‘off board motor’ models for top performance without the noise. Our latest Downdraft is ideal for island applications with the motor being able to be moved up to 7 meters away either outside or under the floor. We also offer a range of ducting accessories delivered direct to site.*"
+            }
+          },
+          "4a9bb017-6f16-4802-87ed-9db0788da170": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Tisira.png",
+              "tile-title": "tisira",
+              "tile-text": "Source directly from a leading appliance manufacturer, the new Tisira range of ovens, cooktops, rangehoods and dishwashers offer a value alternative for any project. We are the first manufacturer to offer a Pyrolytic and Induction package specifically for serviced apartment applications."
+            }
+          },
+          "97382c72-60b0-4eec-a564-7a9a206cd241": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Husky.png",
+              "tile-title": "husky",
+              "tile-text": "Husky is truly the brand of choice around the world for domestic and commercial bar cooling. Our range of back bars are ideal for alfresco areas and will chill drinks the same way as they do in the bars and clubs around Australia. Commercial cooling for your domestic project without the price!"
+            }
+          },
+          "7f3ae39d-d4fd-423a-b67c-4ee456a35d6b": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Monster_91985cfc-c010-4e90-bbc6-45f26dcf1eb3.png",
+              "tile-title": "monster",
+              "tile-text": "Monster has been leading the way with innovation in Headphones, Speakers, HDMI Cables, and Power Solutions for nearly four decades. Why because the Creativity, Innovation, and the Music Matters."
+            }
+          },
+          "9c1c4682-10ec-4638-bd9c-b747dd764488": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Smart-BBQs1.png",
+              "tile-title": "smart",
+              "tile-text": "Smart BBQs are available with stainless steel trolleys and inbuilt units that are competitively priced. Our unique Wall Mount Electric BBQ can be mounted on balconies where gas supply is limited and only requires a 10amp connection. Utilising the power and heat of induction, this BBQ will perform the same if not better than a traditional gas grill"
+            }
+          },
+          "d3a0c955-40e6-41e4-902c-dfd3d746b8a2": {
+            "type": "arisit-images",
+            "settings": {
+              "tile-commercial": "shopify:\/\/shop_images\/Capital.png",
+              "tile-title": "capital",
+              "tile-text": "Capital BBQ’s will reflect the quality of your project with the highest performance BBQ on the market here in Australia and New Zealand. Each product is handcrafted in the USA with the finest stainless steel and the most reliable components."
+            }
+          }
+        },
+        "block_order": [
+          "9fe15c73-a3eb-452f-aec6-63cdd53302c2",
+          "0547228a-7cb5-4923-969b-a4c03c2156cb",
+          "9d9f6e8b-3152-4261-8726-ed0240dcca45",
+          "bc7a2744-5bc2-4f1e-a88a-fa9d0a4bad2e",
+          "4a9bb017-6f16-4802-87ed-9db0788da170",
+          "97382c72-60b0-4eec-a564-7a9a206cd241",
+          "7f3ae39d-d4fd-423a-b67c-4ee456a35d6b",
+          "9c1c4682-10ec-4638-bd9c-b747dd764488",
+          "d3a0c955-40e6-41e4-902c-dfd3d746b8a2"
+        ],
+        "settings": {
+          "arisit-commercial-tile-title": ""
+        }
+      },
+      "logo-list": {
+        "type": "logo-list",
+        "blocks": {
+          "5a1ba4ca-0c29-4d0b-8a2d-4a3501d5116a": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HN-Commercial.png",
+              "link": ""
+            }
+          },
+          "5fd65ed2-aa40-41bd-8643-3d644ea446ae": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/estrading-logo-20161.png",
+              "link": ""
+            }
+          },
+          "d269dcb2-249a-46f8-9e6b-896d1db08dfb": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hardings-hardware-logo1.png",
+              "link": ""
+            }
+          },
+          "3d7f299c-a927-4e8f-8890-1d4dcdec4293": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Winningslogo-commercial-1.png",
+              "link": ""
+            }
+          },
+          "3a6c40e8-9e87-494f-8c89-4eb3dc380b56": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/joyce-mayne1.png",
+              "link": ""
+            }
+          },
+          "60acc07c-03b2-4434-8925-4fd56054b3d7": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Builder-Discount-Centre2.png",
+              "link": ""
+            }
+          },
+          "9c096528-d32b-4914-844e-f4fdaa391cd6": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brisbane-appliance-sales.png",
+              "link": ""
+            }
+          },
+          "523a0210-7cba-4b59-a3ca-1df54c2f2b4e": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/stocks-40-years-logo1.png",
+              "link": ""
+            }
+          },
+          "ed6cb679-6df0-4203-ba15-c9f0ea373b49": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Spartan2.png",
+              "link": ""
+            }
+          },
+          "9af9abdf-47c9-418e-ae37-524cb6bc822c": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/retravision-logo.png",
+              "link": ""
+            }
+          },
+          "7b460a37-d475-4150-af56-95f0e233f64b": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo1.png",
+              "link": ""
+            }
+          },
+          "d45e618d-e954-4380-8746-10cc3cea7e89": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LM.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "5a1ba4ca-0c29-4d0b-8a2d-4a3501d5116a",
+          "5fd65ed2-aa40-41bd-8643-3d644ea446ae",
+          "d269dcb2-249a-46f8-9e6b-896d1db08dfb",
+          "3d7f299c-a927-4e8f-8890-1d4dcdec4293",
+          "3a6c40e8-9e87-494f-8c89-4eb3dc380b56",
+          "60acc07c-03b2-4434-8925-4fd56054b3d7",
+          "9c096528-d32b-4914-844e-f4fdaa391cd6",
+          "523a0210-7cba-4b59-a3ca-1df54c2f2b4e",
+          "ed6cb679-6df0-4203-ba15-c9f0ea373b49",
+          "9af9abdf-47c9-418e-ae37-524cb6bc822c",
+          "7b460a37-d475-4150-af56-95f0e233f64b",
+          "d45e618d-e954-4380-8746-10cc3cea7e89"
+        ],
+        "settings": {
+          "title": "",
+          "logo_opacity": 100,
+          "divider": false
+        }
+      },
+      "commercial-slidehow": {
+        "type": "commercial-slidehow",
+        "blocks": {
+          "764aab31-7288-44c2-a0a4-987be166d15a": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Yorkshire-Brewery.jpg",
+              "commercial-project-text": "YORKSHIRE BREWERY APARTMENTS | VICTORIA",
+              "commercial-developer": "SMA Projects Australia",
+              "commercial-architect": "SMA Projects Australia",
+              "commercial-builder": "Icon Construction",
+              "commercial-apartments": "365"
+            }
+          },
+          "e1931016-f1a6-43a6-8f0d-b94d93c2a1fb": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Swanston-Central.jpg",
+              "commercial-project-text": "SWANSTON CENTRAL | VICTORIA",
+              "commercial-developer": "Hengyi Australia",
+              "commercial-architect": "Elenberg Fraser",
+              "commercial-builder": "Multiplex",
+              "commercial-apartments": "1039"
+            }
+          },
+          "ba0b731e-1788-41d2-bbc8-2fe57125f8d9": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lighthouse-Tower.jpg",
+              "commercial-project-text": "LIGHT HOUSE TOWER | VICTORIA",
+              "commercial-developer": "Hengyi Australia",
+              "commercial-architect": "Elenberg Fraser",
+              "commercial-builder": "Multiplex",
+              "commercial-apartments": "605"
+            }
+          },
+          "0232f0c1-f60c-4bfc-8d86-1e544ddda407": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Empire-Apartments.jpg",
+              "commercial-project-text": "EMPIRE APARTMENTS | VICTORIA",
+              "commercial-developer": "Mammoth Empire Holdings &amp; PDS Group",
+              "commercial-architect": "Hayball",
+              "commercial-builder": "ProBuild",
+              "commercial-apartments": "474"
+            }
+          },
+          "0bdc2805-110b-4910-9fcb-53016666fe47": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bohem-Apartments.jpg",
+              "commercial-project-text": "BOHEM APARTMENTS | SOUTH AUSTRALIA",
+              "commercial-developer": "Developer – Starfish Developments",
+              "commercial-architect": "Architect – Enzo Caroscio Architecture",
+              "commercial-builder": "Builder – Maxcon",
+              "commercial-apartments": "234"
+            }
+          }
+        },
+        "block_order": [
+          "764aab31-7288-44c2-a0a4-987be166d15a",
+          "e1931016-f1a6-43a6-8f0d-b94d93c2a1fb",
+          "ba0b731e-1788-41d2-bbc8-2fe57125f8d9",
+          "0232f0c1-f60c-4bfc-8d86-1e544ddda407",
+          "0bdc2805-110b-4910-9fcb-53016666fe47"
+        ],
+        "settings": {
+        }
+      },
+      "contact-form": {
+        "type": "contact-form",
+        "settings": {
+          "title": "",
+          "text": "",
+          "show_phone": true,
+          "narrow_column": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Classic": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#ffffff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "cart_type": "drawer",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292485313",
+            "1494292487693",
+            "1494292481350"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Elegant": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#ffffff",
+      "color_footer": "#17172c",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "cart_type": "drawer",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Minimal": {
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "50",
+      "type_header_font_family": "chivo_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "neuzeit_office_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "cart_type": "drawer",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

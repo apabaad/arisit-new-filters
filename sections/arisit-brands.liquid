@@ -1,0 +1,175 @@
+<div class="page-width arisit-brand-container">
+
+    <h2 class="section-header__title">{{ section.settings.brand-row-title }}</h2>
+                <div class="arisit-brand-row">
+                    {% for block in section.blocks %}
+                        {% if block.settings.image and block.settings.arisit-brand-text != blank %}
+
+                            <a href="{{ block.settings.brand-btn-link }}" target="_blank">
+                    <div class="arisit-brand-item">
+                       
+                        
+                        <img src="{{block.settings.image | img_url: 'master' }}" class="arisit-brand-logo" loading="lazy">
+    
+                         
+                         
+                        <span class="arisit-brand-text"> {{ block.settings.arisit-brand-text }}</span>
+                        <div class="brand-buttons">
+                            {{ block.settings.brand-shop-btn }}
+                        </div>
+                    </div>
+
+                </a>
+                {% endif %}
+        {% endfor %}
+                </div>
+            </div>
+    
+    {% schema %}
+    {
+        "name": "Brands",
+        "settings":[
+            {
+            "type": "text",
+            "id":"brand-row-title",
+            "label":"Row Title"
+        }
+        ],
+        "blocks": [
+                    {
+                    "type":"arisit-brands",
+                    "name":"Brand",
+                    "settings":[
+                        {
+                        "type":"image_picker",
+                        "id":"image",
+                        "label":"Logo"
+                        },
+                        {
+                        "type":"textarea",
+                        "id":"arisit-brand-text",
+                        "label":"Text"
+                        },
+                        {
+                        "id": "brand-btn-link",
+                        "type": "url",
+                        "label": "Button URL"
+                        },
+                        {
+                        "id": "brand-shop-btn",
+                        "type": "text",
+                        "label": "Button name",
+                        "default":"find out more"
+                        }
+                    ]}
+        
+                  ],
+        "presets":[
+            {
+            "name":"Arisit Brands",
+            "category":"Brands"}
+        ]}
+        {% endschema %}
+    
+        {% style %}
+        
+        .arisit-brand-container{
+            margin-top: 60px;
+        }
+    
+        .brand-row-title{
+            font-size:25px;
+            font-weight:bold;
+            color:#20447E;
+            margin-left:15px;
+        }
+    
+        .arisit-brand-row{
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:flex-start;
+            flex-wrap:wrap;
+        }
+    
+        .arisit-brand-item{
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+            height:300px;
+            max-width:250px;
+            border: 2px solid #E5E5E5;
+            border-radius: 10px;
+            margin: 20px 25px 30px 25px;
+            transition: 0.3s ease;
+            overflow:hidden;
+            background-color:white;
+        }
+
+        .arisit-brand-item:hover{
+            border: 2px solid #2F4E82;
+        }
+    
+      
+        .arisit-brand-logo{
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: 100%;
+            text-rendering: optimizeSpeed;
+            font-weight: 400;
+            text-align: center;
+            color: var(--colorTextBody);
+            box-sizing: border-box;
+            border: 0 none;
+            opacity: 1;
+            transition: opacity 0.4s ease;
+            display: block;
+            width: 100%; 
+            height: 85px;
+        } 
+    
+        .arisit-brand-text{
+            font-size:16px;
+            margin: 0 10px 0 10px;
+            text-align:justify;
+        }
+    
+        .brand-buttons{
+            background: #2F4E82;
+            color: white; padding: 11px 20px;
+            margin:10px;
+            min-width: 90px;
+            line-height: 1.42;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform .1s;
+            -webkit-user-select: none;
+            user-select: none; 
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border-radius: 5px;
+            text-transform:uppercase;
+        }
+        
+
+        .brand-buttons:hover{
+            color:white;      
+            }
+    
+        @media screen and (max-width: 599px){
+            .arisit-brand-item{
+                margin: 20px 0 0 0;
+        }
+        }
+
+        @media screen and (max-width: 599px) {
+        .arisit-brand-row{
+            justify-content:center;
+            }
+            
+        .arisit-brand-container{
+            
+        }
+        }
+
+        {% endstyle %}

@@ -1,0 +1,176 @@
+<div class="page-width commercial-project-container">
+
+    <div class="commercial-project-row">
+        {% for block in section.blocks %}
+            {% if block.settings.image  != blank %}
+
+        <div class="commercial-project-item">
+           <div class="commercial-project-image">
+            
+            <img src="{{block.settings.image | img_url: 'master' }}" class="commercial-project-image">
+            {{ block.settings.commercial-project-name }}
+           </div>
+             
+           <div class="commercial-project-detail">
+            <h4 class="commercial-project-name">{{ block.settings.commercial-project-text }}</h4>
+            <p>Developer - {{ block.settings.commercial-developer }}</p>
+            <p>Architect - {{ block.settings.commercial-architect }}</p>
+            <p>Builder - {{ block.settings.commercial-builder }}</p>
+            <p>Appartments - {{ block.settings.commercial-apartments }}</p>
+           </div>
+        </div>
+
+    </a>
+    {% endif %}
+{% endfor %}
+    </div>
+</div>
+
+
+<script>
+    $('.commercial-project-item').slick
+        ({
+            
+            dots: true,
+            infinite: true,
+            slidesToShow: 3
+            slidesToScroll: 3,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    
+</script>
+
+{% schema %}
+{
+"name": "Commercial Projects",
+"blocks": [
+        {
+        "type":"commercial-project",
+        "name":"Projects",
+        "settings":[
+            {
+            "type":"image_picker",
+            "id":"image",
+            "label":"image"
+            },
+            {
+            "type":"text",
+            "id":"commercial-project-text",
+            "label":"name"
+            },
+            {
+            "type":"text",
+            "id":"commercial-developer",
+            "label":"developer"
+            },
+            {
+            "type":"text",
+            "id":"commercial-architect",
+            "label":"architect"
+            },
+            {
+            "type":"text",
+            "id":"commercial-builder",
+            "label":"builder"
+            },
+            {
+            "type":"text",
+            "id":"commercial-apartments",
+            "label":"apartments"
+            }
+            
+        ]}
+
+      ],
+"presets":[
+{
+"name":"Commercial Project",
+"category":"Projects"}
+]}
+{% endschema %}
+
+{% style %}
+
+.commercial-project-container{
+margin-top: 25px;
+margin-bottom: 60px;
+scroll:smooth;
+}
+
+.brand-row-title{
+font-size:25px;
+font-weight:bold;
+color:#20447E;
+margin-left:15px;
+}
+
+.commercial-project-row{
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:flex-start;
+flex-wrap:wrap;
+}
+
+.commercial-project-item{
+display:flex;
+margin: 20px 10px 0 0;
+flex-wrap:wrap;
+transition: 0.3s ease;
+background-color:white;
+}
+
+
+.commercial-project-image{
+text-align: center;
+width: 280px;
+height:250px; 
+/* flex: 1 1 50%; */
+} 
+
+.commercial-project-detail{
+font-size:16px;
+margin: 0 10px 0 2px;
+background-color: #CCCCCC;
+width: 280px;
+height:250px;
+padding:40px 0 0 20px;
+}
+
+.commercial-project-text{
+font-size:14px;
+/* margin: 0 10px 0 10px; */
+text-align:justify;
+}
+
+.commercial-project-detail p {
+    margin-top:-10px;
+    font-size:14px;
+    font-weight:550;
+}
+.commercial-project-name{
+    font-size:16px;
+}
+
+
+
+@media screen and (max-width: 599px){
+.commercial-project-item{
+    /* flex-direction:column; */
+    margin: 20px 0 0 0;
+}
+}
+
+@media screen and (max-width: 599px) {
+.commercial-project-row{
+justify-content:center;
+}
+
+.commercial-project-container{
+margin-top: 30px;
+}
+}
+
+{% endstyle %}

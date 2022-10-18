@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "3e46fca0-7a59-406c-89df-1f3af185bc9f": {
+      "type": "arisit-collection-intro",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Final_kitchen_opt_3024x_418fa4a4-a520-4769-b5e4-b8908ca63b8c.webp",
+        "image_width": 700,
+        "logo": "shopify:\/\/shop_images\/Screenshot_5_e6fd5288-eeae-4026-a3a6-3220af4a3567.png",
+        "subtitle": "Airpop - We're Made For Breathing",
+        "title": "",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p><p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion. Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "0aaf58b5-40cf-460a-8da6-14865c5a9235": {
+      "type": "visual-navigaition",
+      "blocks": {
+        "3b0f6ea7-2351-4155-8746-faf28221dda6": {
+          "type": "image",
+          "settings": {
+            "nav-title": "Cooktop",
+            "nav-item-image": "shopify:\/\/shop_images\/cook.png",
+            "nav-item-link": ""
+          }
+        },
+        "eccb450b-3fe8-4fcb-b7c3-233a442b6616": {
+          "type": "image",
+          "settings": {
+            "nav-title": "Cooktop",
+            "nav-item-image": "shopify:\/\/shop_images\/dry.png",
+            "nav-item-link": ""
+          }
+        },
+        "401ee8eb-c7c8-40c9-bb36-34874c4be565": {
+          "type": "image",
+          "settings": {
+            "nav-title": "Cooktop",
+            "nav-item-image": "shopify:\/\/shop_images\/cook.png",
+            "nav-item-link": ""
+          }
+        },
+        "132e8ab9-0124-4e9b-a1eb-75a863ea5027": {
+          "type": "image",
+          "settings": {
+            "nav-title": "Cooktop",
+            "nav-item-image": "shopify:\/\/shop_images\/dry.png",
+            "nav-item-link": ""
+          }
+        },
+        "84e15909-112e-4f62-a9d0-2d973e139ba5": {
+          "type": "image",
+          "settings": {
+            "nav-title": "Cooktop",
+            "nav-item-image": "shopify:\/\/shop_images\/cook.png",
+            "nav-item-link": ""
+          }
+        },
+        "a136c75c-d6e5-4e3e-ba8a-475fbaae680f": {
+          "type": "image",
+          "settings": {
+            "nav-title": "Cooktop",
+            "nav-item-image": "shopify:\/\/shop_images\/dry.png",
+            "nav-item-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b0f6ea7-2351-4155-8746-faf28221dda6",
+        "eccb450b-3fe8-4fcb-b7c3-233a442b6616",
+        "401ee8eb-c7c8-40c9-bb36-34874c4be565",
+        "132e8ab9-0124-4e9b-a1eb-75a863ea5027",
+        "84e15909-112e-4f62-a9d0-2d973e139ba5",
+        "a136c75c-d6e5-4e3e-ba8a-475fbaae680f"
+      ],
+      "settings": {
+        "nav-row-title": ""
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "d5dc6e1d-b137-49b3-a44e-49eb666f73fd": {
+          "type": "product_grid",
+          "settings": {
+            "collection_subnav_style": "inline",
+            "per_row": 3,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "d5dc6e1d-b137-49b3-a44e-49eb666f73fd"
+      ],
+      "settings": {
+        "collection_image_enable": false,
+        "collection_title_enable": false,
+        "collection_image_height": 550,
+        "parallax": true,
+        "enable_sidebar": true,
+        "collapsed": false,
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    }
+  },
+  "order": [
+    "3e46fca0-7a59-406c-89df-1f3af185bc9f",
+    "0aaf58b5-40cf-460a-8da6-14865c5a9235",
+    "main-collection"
+  ]
+}

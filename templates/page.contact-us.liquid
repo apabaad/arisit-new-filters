@@ -1,0 +1,147 @@
+<main class="main-content" id="MainContent">
+
+  {% comment %} image {% endcomment %}
+  
+
+ {% comment %} contact container {% endcomment %}
+  <div
+    id="shopify-section-template--15945108553947__16515390374f26b0e1"
+    class="shopify-section"
+  >
+    <div class="page-width">
+      <div class="arisit-contact-container">
+        <div class="arisit-contact-row">
+          <div class="contact-text-section">
+              <h4 class="get-in-touch-title"> Get in touch </h4>
+              <span>We'd love to hear from you. Our friendly team is always happy to help you.</span> <br /><br />
+              <div class="enquiry-contact">
+                  <i class="contact-fa fa-solid fa-clipboard-question"></i>
+                <span class="get-in-touch-title">General Enquiries</span class="get-in-touch-title"><br />
+                <div class="arisit-contact-details">
+                Warranty Enquiries: 1300 762 219 / 1300 815 589<br />
+                Sales/Spare Parts Enquiries: 1300 762 219<br />
+                Fax: (03) 9768 0838
+                </div>
+                <br />
+                
+                <i class="contact-fa fa-regular fa-circle-question"></i>
+                <span class="get-in-touch-title"> Commercial Enquiries</span class="get-in-touch-title"><br />
+                <div class="arisit-contact-details">
+                Sales Enquiry: (03) 9768 0846<br />
+                Sales Email: commercial.sales@arisit.com<br />
+                Warranty/Service: commercial.warranty@arisit.com
+              </div>
+                <br />
+                
+                <i class="fa contact-fa fa-users"></i>
+                <span class="get-in-touch-title">Customer Service Hours (Australia)</span class="get-in-touch-title"><br />
+                <div class="arisit-contact-details">
+                Monday to Friday: 9:00am – 5:00pm (EST)
+              </div>
+                <br />
+                
+                <i class="contact-fa fa-solid fa-location-dot"></i>
+
+                <span class="get-in-touch-title"> Head Office (Australia)</span class="get-in-touch-title"><br />
+                <div class="arisit-contact-details">
+                Arisit Pty. Ltd.<br />
+                40-50 Mark Anthony Drive<br />
+                Dandenong South, VIC 3175<br />
+                Email: arisit@arisit.com
+              </div>
+              <br />
+                <i class="contact-fa fa-solid fa-location-dot"></i>
+                 <span class="get-in-touch-title">Head Office (New
+                  Zealand)</span class="get-in-touch-title"></span
+                ><br />
+                <div class="arisit-contact-details">
+                  <span class="contact-data">1A Howe Street, Auckland 1010</span> <br>
+                <span class="contact-title">In Warranty Period:</span
+                ><span class="contact-data"> (09) 306 1020</span><br />
+                <span class="contact-title">Out of Warranty Period:</span
+                ><span class="contact-data"> (09) 306 1020</span><br />
+                <span class="contact-title"
+                  >Spare Parts/Sales Enquires:</span
+                ><span class="contact-data"> (09) 306 1020</span><br />
+                <span class="contact-title">Fax:</span
+                ><span class="contact-data"> (03) 302 0077</span><br />
+              </div>
+              </div>
+         
+              </div>
+          <div class="contact-form-section">
+              <div class="page-width page-width--narrow"><div class="section-header">
+                  <h2 class="section-header__title">
+                    Leave us your query
+                  </h2></div>
+              
+                      {% section 'contact-form'%}
+              
+            </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+
+<style>
+.arisit-contact-container {
+  margin:25px auto;
+  border:2px solid #20447E;
+  border-radius:20px;
+  overflow:hidden;
+   background-color: white; 
+}
+
+.arisit-contact-row {
+  height:inherit;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row-reverse;
+}
+
+.contact-text-section {
+  background-color: #20447E;
+  color:white;
+  padding: 45px;
+  flex-wrap:wrap;
+  flex: 1 0 40%;
+}
+
+.contact-form-section{
+  padding: 45px;
+  color: #20447E;
+  flex: 1 0 50%;
+}
+
+.contact-fa{
+  color:#F9F871;
+  margin-right:5px;
+  }
+  
+  .get-in-touch-title{
+    color:#F9F871;
+  }
+  
+  .arisit-contact-details{
+    margin-left:25px;
+  }
+  
+  .enquiry-contact{
+  {% comment %} margin-left:20px; {% endcomment %}
+  }
+
+  @media screen and (max-width:768px){
+      .arisit-contact-container {
+          margin:10px 0 10px 0px;
+  }
+      .contact-text-section {
+          padding: 25px;
+      }
+
+      .contact-text-section h4{
+          padding-top:15px;
+      }
+</style>

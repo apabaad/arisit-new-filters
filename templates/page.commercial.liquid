@@ -1,0 +1,122 @@
+<div class="page-width">
+
+{% section 'slideshow' %}
+
+
+
+<div class="commercial-container">
+        <div class="commercial-container-title"> 
+            <h2 class="para-title">
+                <span class="title-black">WHO IS </span> 
+                <span class="title-blue">ARISIT COMMERCIAL</span> 
+            </h2>
+        </div>
+        <div class="commercial-main-content">
+            <div class="commercial-row">
+            <div class="wpb_wrapper">
+                <p class="commercial-intro">Here at Arisit, appliances are our life. When we think about appliances, we think about you. From the design and functionality to the value and style, it’s all about making life easier. We only import the best products from around the world and constantly strive to develop and source new and exciting trends in the kitchen, laundry and alfresco areas of the modern Australian and New Zealand home. We work closely with our production partners directly across four continents to ensure that for any project, big or small, we can supply everything required to complete the job on time. We can even work with you to source a product that will meet your requirements and provide a unique solution to differentiate your next project. Quality is in our DNA, and with our technical and after sales service teams, we will offer the gold standard for your next project.</p>
+            </div>
+        
+            <div class="map-container">
+                <p align="center">
+                    <img class="map-image" src="https://cdn.shopify.com/s/files/1/0630/1057/0459/files/Australia-and-NZ.png?v=1653440957" alt="Map of Australia">
+                </p>
+            </div>
+        </div>
+
+        <div class="commercial-container-title"> 
+            <h2 align="center" class="para-title">
+                <span class="title-black">OUR </span>
+                <span class="title-blue">BRANDS</span>
+            </h2>
+        </div>
+        
+
+        {% section 'arisit-commercial-tile' %}
+        
+        <div class="commercial-container-title"> 
+        <h2 align="center" class="para-title">
+            <span class="title-black">RECENT </span> 
+            <span class="title-blue">PROJECTS</span>
+        </h2>
+        </div> 
+
+        {% section 'commercial-slidehow'%}
+
+    <div class="commercial-container-title"> 
+         <h2 align="center" class="para-title">
+            <span class="title-black">OUR </span> 
+            <span class="title-blue">PARTNERS</span>
+         </h2>
+
+         {% section 'logo-list' %}
+    </div>
+    
+</div>
+
+</div>
+</div>
+
+
+
+{% style %}
+
+.commercial-container{
+    margin-top:40px;
+}
+
+
+.commercial-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.commercial-intro{
+    font-size:16px;
+}
+
+.title-black{
+    color:black;
+    background: #FFF;
+    padding-left: 30px;
+}
+
+.title-blue{
+    background: #FFF;
+    padding-right: 30px;
+}
+
+.wpb_wrapper{
+    max-width:40%;
+    text-align:justify;
+    padding:0 20px 10px 0;
+}
+
+.para-title{
+    box-sizing: border-box;
+    border-bottom: 4px solid #1d417b;
+    line-height: 0.1em;
+    margin: auto;
+    text-align: center;
+
+    justify-content:center;
+    margin-bottom: 0;
+    max-width:75%;
+
+}
+ 
+@media screen and (max-width:768px){
+    .commercial-row{
+        flex-direction:column;
+        justify-content:flex-start;
+    }
+
+    .wpb_wrapper{
+    max-width:100%;
+    }
+}
+
+{% endstyle %}

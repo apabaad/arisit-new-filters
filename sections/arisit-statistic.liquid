@@ -1,0 +1,198 @@
+<div class=" arisit-statistics-row page-width">
+        
+    {% for block in section.blocks %}
+        {% if block.settings.arisit-statistics-number != blank %}
+            <div class="arisit-statistics-item">
+              <div class="stats-icon">
+                <div class="icon-shadow">
+                {{ block.settings.stats-icon}}
+                </div>
+              </div>
+              <div class="stats-text">
+                <span class="statistics-number">
+                   {{ block.settings.arisit-statistics-number }}
+                </span> <br>
+                <span class="statistics-text">
+                    {{ block.settings.arisit-statistics-text }}
+                </span> <br>
+                <span class="statistics-small-text">
+                    {{ block.settings.arisit-statistics-small-text }}
+                </span>
+              </div>
+            </div>
+        {%endif%}
+        {% endfor %}
+</div>
+
+
+
+
+{% schema %}
+
+{
+"blocks": [
+{
+"type":"arisit-statistics",
+"name":"Stats Info",
+"settings":[
+  {
+    "type":"html",
+    "id":"stats-icon",
+    "label":"Icon CSS class"
+  },
+{
+"type":"text",
+"id":"arisit-statistics-number",
+"label":"Number"
+},
+{
+"type":"text",
+"id":"arisit-statistics-text",
+"label":"Big Text"
+},
+ {
+"type":"textarea",
+"id":"arisit-statistics-small-text",
+"label":"Small Text"
+}
+]}
+
+],
+"presets":[
+{
+"name":"Arisit Statistics",
+"category":"Statistics"}
+]}
+{% endschema %}
+
+{% style %}
+
+.arisit-statistics-row{
+display:flex;
+flex-wrap: wrap; /* it tells items to wrap in a container making multiline. in default there is nowrap which brings items in a single line  */
+justify-content:space-between;
+max-width:1522px;
+}
+
+
+.arisit-statistics-item{
+float:left;
+margin:20px 20px 0 20px;
+background: #FFFFFF;
+text-align:center;
+padding:10px 5px 15px 5px;
+flex: 1 0 29%;  /* flex is a shorthand for flex-grow flex-shrink, flex-basis */
+cursor: grab;
+border: 1px solid #E5E5E5;
+border-radius: 18px;
+box-shadow:0 0 13px #0000001a;
+
+display:flex !important;
+justify-content:space-evenly;
+
+
+}
+
+.stats-icon{
+  min-width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.icon-shadow{
+    width:70px;
+    height:70px;
+    background-color: #20447E;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:30px;
+}
+
+.statistics-number{
+font-size:30px;
+font-weight: 4500;
+color:#20447E;
+}
+
+#SiteHeader{
+  border:none;
+}
+
+.statistics-text{
+font-weight:bold;
+text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 600px) {
+
+.arisit-statistics-row{
+margin-top:-20px;
+flex: 1 1 1;
+}
+
+.arisit-statistics-item{
+padding:10px;
+font-size: 14px;
+}
+
+.statistics-number{
+font-size: 25px;
+}
+
+.statistics-small-text{
+text-transform: capitalize;
+}
+}
+
+{% endstyle %}
+
+
+
+
+<script>
+  $(document).on('ready', function () {
+      $('.arisit-statistics-row').slick({
+          
+          dots: true,
+          {% comment %} infinite: true, {% endcomment %}
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          
+          responsive: [
+           
+              {
+                breakpoint: 1200,
+                settings: {
+                  arrows: false,
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  arrows: false,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+                }
+              }
+              
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ]
+      });
+  });
+</script>
