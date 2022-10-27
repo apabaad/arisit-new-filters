@@ -69,8 +69,8 @@
         "space_around": true
       }
     },
-    "main-collection-boost-pfs-original": {
-      "type": "main-collection-boost-pfs-original",
+    "main-collection": {
+      "type": "main-collection",
       "blocks": {
         "collection_description": {
           "type": "collection_description",
@@ -81,7 +81,7 @@
         "product_grid": {
           "type": "product_grid",
           "settings": {
-            "collection_subnav_style": "inline",
+            "collection_subnav_style": "none",
             "per_row": 3,
             "mobile_flush_grid": false
           }
@@ -97,7 +97,7 @@
         "collection_image_height": 550,
         "parallax": true,
         "enable_sidebar": true,
-        "collapsed": false,
+        "collapsed": true,
         "enable_color_swatches": false,
         "enable_sort": false
       }
@@ -107,6 +107,6 @@
     "16510280273419cc8a",
     "165102559753940f35",
     "16510250274640b95e",
-    "main-collection-boost-pfs-original"
+    "main-collection"
   ]
 }

@@ -223,7 +223,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AVS.png",
             "arisit-brand-text": "Safe, easy to install, high quality and great looking audio visual experiences to our customers.",
-            "brand-btn-link": "shopify:\/\/collections\/avs",
+            "brand-btn-link": "shopify:\/\/collections\/avs-tv-furniture-cabinetry",
             "brand-shop-btn": "find out more"
           }
         },
@@ -284,9 +284,9 @@
         "c27c2a6c-4373-4ce0-a031-2722ee132d1d": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Medisana.png",
+            "image": "shopify:\/\/shop_images\/Medisana_a2a29a82-0447-49cd-b1cd-e93b5a56bc2b.png",
             "arisit-brand-text": "Medisana is one of the leading specialists in the home health care market.",
-            "brand-btn-link": "shopify:\/\/pages\/medisana",
+            "brand-btn-link": "shopify:\/\/collections\/medisana-medical-products",
             "brand-shop-btn": "find out more"
           }
         },

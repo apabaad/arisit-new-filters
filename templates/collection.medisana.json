@@ -2,21 +2,19 @@
   "sections": {
     "8a603479-82d0-44d4-b4df-f3bad955a56f": {
       "type": "collection-mobile-top-logo",
-      "disabled": true,
       "settings": {
-        "logo": "shopify:\/\/shop_images\/AVS.jpg"
+        "logo": "shopify:\/\/shop_images\/Medisana_a2a29a82-0447-49cd-b1cd-e93b5a56bc2b.png"
       }
     },
     "4d1a1b1b-ee49-41b4-9523-b1a53ab07339": {
       "type": "arisit-collection-intro",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/HALO-rangehood-lifestyle-web-image.jpg",
+        "image": "shopify:\/\/shop_images\/Medisana-Medical-Products.jpg",
         "image_width": 700,
-        "logo": "shopify:\/\/shop_images\/AVS.jpg",
-        "subtitle": "Airpop - We're Made For Breathing",
+        "logo": "{{ collection.metafields.custom.brand_logo.value }}",
+        "subtitle": "Medical Products, Medical Devices & Health Products",
         "title": "",
-        "text": "<p>Lorem ipsum dolor sit amet. Et omnis molestias et numquam eius a voluptatem repellendus a nobis nulla. Hic dolorem maiores eos obcaecati vitae et quia magnam?<\/p><p>Et veniam doloremque id ipsum suscipit et rerum nihil quia sapiente ea corporis iure non aliquid sunt. Et voluptas natus et suscipit illum sed vitae modi ut vitae dolorum qui porro perferendis qui mollitia possimus. Aut cumque exercitationem sit perferendis nesciunt et dolores perferendis vel nobis tempora est doloremque corrupti et doloribus recusandae.<\/p><p>Aut adipisci perspiciatis et eligendi distinctio qui magnam nulla ut alias facere ex perferendis dolor ab debitis cupiditate. Aut similique neque est voluptas ipsam animi distinctio. Eos dolor sint vel omnis sunt qui voluptate quisquam 33 isquk.<\/p>",
+        "text": "<p>Medisana is a proud German company that has been dedicated to improving people's health for over 30 years. They have created a variety of products that can help you monitor your health and keep track of certain conditions.<br\/><br\/>With the rise in popularity of health-conscious living, people are taking more steps to improve their own well-being. Unfortunately, this can be difficult for those with chronic illnesses or other conditions that require extra care. Medisana has created many products specifically designed to make it easier for people with these conditions to get the help they need while still being able to live comfortably and without pain.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -27,38 +25,37 @@
     },
     "1214e97d-6bc7-4464-8ab8-9256b3681716": {
       "type": "visual-navigaition",
-      "disabled": true,
       "blocks": {
         "813bd997-232e-4eda-9148-b945fcaaaa7f": {
           "type": "image",
           "settings": {
-            "nav-title": "Vacuum & Cleaners",
-            "nav-item-image": "shopify:\/\/shop_images\/ACG40RFS.1web.png",
-            "nav-item-link": ""
+            "nav-title": "Body Scales",
+            "nav-item-image": "shopify:\/\/shop_images\/Scales.png",
+            "nav-item-link": "shopify:\/\/collections\/medisana-body-scales"
           }
         },
         "ff756ed3-44b9-4d8c-b573-8e3de8abb67a": {
           "type": "image",
           "settings": {
-            "nav-title": "Gas Cooktops",
-            "nav-item-image": "shopify:\/\/shop_images\/ACG40RFS.1web.png",
-            "nav-item-link": ""
+            "nav-title": "Blood Pressure Monitors",
+            "nav-item-image": "shopify:\/\/shop_images\/Blood-Pressure-Monitors.png",
+            "nav-item-link": "shopify:\/\/collections\/medisana-blood-pressure-monitors"
           }
         },
         "82fb06c0-a2ea-402d-9fa1-f0f7eb29282b": {
           "type": "image",
           "settings": {
-            "nav-title": "Dryers",
-            "nav-item-image": "shopify:\/\/shop_images\/ACG40RFS.1web.png",
-            "nav-item-link": ""
+            "nav-title": "Massage",
+            "nav-item-image": "shopify:\/\/shop_images\/Massage.png",
+            "nav-item-link": "shopify:\/\/collections\/medisana-massage"
           }
         },
         "90e2cf46-ea32-469b-ab94-b2004458eb6b": {
           "type": "image",
           "settings": {
-            "nav-title": "Microwaves",
-            "nav-item-image": "shopify:\/\/shop_images\/ACG40RFS.1web.png",
-            "nav-item-link": ""
+            "nav-title": "Other Medical Products",
+            "nav-item-image": "shopify:\/\/shop_images\/Other-Medical-Products.png",
+            "nav-item-link": "shopify:\/\/collections\/medisana-other-medical-products"
           }
         }
       },
@@ -74,6 +71,7 @@
     },
     "16588888461c48edac": {
       "type": "arisit-collection-description",
+      "disabled": true,
       "settings": {
       }
     },

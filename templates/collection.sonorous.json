@@ -1,11 +1,24 @@
 {
   "sections": {
+    "438b0cf8-14d8-4078-a79e-887a1372a97a": {
+      "type": "arisit-collection-description",
+      "settings": {
+      }
+    },
+    "ccb62bdb-91d7-46a3-9527-05fc62c48c25": {
+      "type": "collection-mobile-top-logo",
+      "disabled": true,
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Sonorous.jpg"
+      }
+    },
     "3e46fca0-7a59-406c-89df-1f3af185bc9f": {
       "type": "arisit-collection-intro",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Final_kitchen_opt_3024x_418fa4a4-a520-4769-b5e4-b8908ca63b8c.webp",
         "image_width": 700,
-        "logo": "shopify:\/\/shop_images\/Screenshot_5_e6fd5288-eeae-4026-a3a6-3220af4a3567.png",
+        "logo": "shopify:\/\/shop_images\/Sonorous.jpg",
         "subtitle": "Airpop - We're Made For Breathing",
         "title": "",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p><p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion. Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
@@ -19,6 +32,7 @@
     },
     "0aaf58b5-40cf-460a-8da6-14865c5a9235": {
       "type": "visual-navigaition",
+      "disabled": true,
       "blocks": {
         "3b0f6ea7-2351-4155-8746-faf28221dda6": {
           "type": "image",
@@ -78,7 +92,7 @@
         "a136c75c-d6e5-4e3e-ba8a-475fbaae680f"
       ],
       "settings": {
-        "nav-row-title": ""
+        "nav-row-title": "FEATURED PRODUCT CATEGORIES"
       }
     },
     "main-collection": {
@@ -109,6 +123,8 @@
     }
   },
   "order": [
+    "438b0cf8-14d8-4078-a79e-887a1372a97a",
+    "ccb62bdb-91d7-46a3-9527-05fc62c48c25",
     "3e46fca0-7a59-406c-89df-1f3af185bc9f",
     "0aaf58b5-40cf-460a-8da6-14865c5a9235",
     "main-collection"

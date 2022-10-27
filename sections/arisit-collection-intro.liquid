@@ -64,7 +64,8 @@
 
       <div class="feature-row__item feature-row__text  feature-row__text--{{ section.settings.layout }} arisit-custom-padding text-{{ section.settings.align_text }}" data-aos>
         {%- if section.settings.logo != blank -%}
-            <div class="arisit-logo-div"><img class="arisit-collection-logo" src= "{{ section.settings.logo | img_url }}"> </div>
+            <div class="arisit-logo-div"><img class="arisit-collection-logo" src= "{{ section.settings.logo | img_url : 'master' }}"> </div>
+        
           {%- endif -%}
         {%- if section.settings.subtitle != blank -%}
           <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %} arisit-collection-subtitle">{{ section.settings.subtitle }}</div>
